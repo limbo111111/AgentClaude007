@@ -52,7 +52,7 @@ Feel free to contribute new agents or improve existing ones. Each agent should:
 
 ## License
 
-This repository is part of the limbo111111 project collection.
+This repository is open source and available for use in your own projects.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 name: auth-route-debugger
 description: |
-  Use this agent when you need to debug authentication-related issues with API routes, including 401/403 errors, cookie problems, JWT token issues, route registration problems, or when routes are returning 'not found' despite being defined. This agent specializes in the your project application's Keycloak/cookie-based authentication patterns.
+  Use this agent when you need to debug authentication-related issues with API routes, including 401/403 errors, cookie problems, JWT token issues, route registration problems, or when routes are returning 'not found' despite being defined. This agent specializes in your project application's Keycloak/cookie-based authentication patterns.
   Examples:
   - <example>
   Context: User is experiencing authentication issues with an API route
@@ -126,7 +126,7 @@ After resolving an issue:
 -   The SSO middleware expects a JWT-signed refresh token in the `refresh_token` cookie
 -   User claims are stored in `res.locals.claims` including username, email, and roles
 -   Default dev credentials: username=testuser, password=testpassword
--   Keycloak realm: <REALM_NAME>, Client: <CLIENT_ID>
+-   Keycloak realm: `your-realm-name`, Client: `your-client-id`
 -   Routes must handle both cookie-based auth and potential Bearer token fallbacks
 
 ## Output Format

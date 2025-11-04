@@ -159,7 +159,7 @@ cp <source-project>/.claude/agents/agent-name.md \\
 **Step 2: Verify (optional)**
 ```bash
 # Check for hardcoded paths
-grep -n "~/git/\|/root/git/\|/Users/" your-project/.claude/agents/agent-name.md
+grep -n '~/git/\|/root/git/\|/Users/' your-project/.github/agents/agent-name.md
 ```
 
 **Step 3: Use it**
